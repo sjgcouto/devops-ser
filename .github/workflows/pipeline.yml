@@ -1,4 +1,4 @@
-ame: devops-pipeline
+name: devops-pipeline
 
 on:
   push:
