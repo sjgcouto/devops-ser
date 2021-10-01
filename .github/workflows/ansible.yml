@@ -7,4 +7,5 @@ jobs:
   ansible-version:
     runs-on: ubuntu-latest
     steps:
-    - run: ansible --version
+   - uses: actions/checkout@v2    
+   - run: ansible-playbook ambiente/ansible.yml
